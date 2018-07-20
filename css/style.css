@@ -5,6 +5,16 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+.background-video {
+	position: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	height:100%;
+}
+
 html,
 body {
 	margin: 0;
@@ -64,9 +74,11 @@ label {
 a.navbar-brand {
 	font-size: 3em;
 	color: #ffdc39!important;
+	padding-top:10pt;
+	padding-bottom:10pt
 }
 .navbar-expand-lg .navbar-nav {
-    margin: 0 6em;
+    margin: 1em;
 }
 nav.navbar.navbar-expand-lg.navbar-light {
     background-color: rgba(0, 0, 0, 0.72) !important;
@@ -79,6 +91,10 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	font-weight:500;
 	letter-spacing: 1px;
 	margin: 0em 0.5em;
+}
+
+.topnav-right{
+	float:right;
 }
 
 .dropdown-item {
@@ -1337,7 +1353,7 @@ li.list-group-item1 {
 .label {
 	font-weight: 300 !important;
 	border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
