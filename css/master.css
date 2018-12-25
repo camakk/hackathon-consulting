@@ -2,7 +2,7 @@ body {
   font-family: 'K2D', sans-serif;
 }
 
-h1, h3, p {
+h1, h2, h3, h4, h5, h6, p {
   color: #115A21;
 }
 
@@ -47,13 +47,20 @@ strong {
 
 #panel_1 {
   background-image: url('../img/ceremony.png');
-  background-size: 100%;
-  background-repeat:none;
+  background-size: cover;
+  background-repeat:no-repeat;
 }
 
 #title-desktop {
-  padding-top:90px;
+  padding-top:110px;
   padding-left:40px;
+  font-size:28pt;
+  color: #115A21;
+}
+
+#title-mobile {
+  padding-top:70px;
+  padding-left:20px;
   font-size:28pt;
   color: #115A21;
 }
