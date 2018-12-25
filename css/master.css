@@ -15,6 +15,18 @@ strong {
   font-weight:700;
 }
 
+footer {
+  background-color:black;
+}
+
+.list-group {
+  list-style-type:square;
+}
+
+.list-group-item {
+  border:none;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #115A21;
 }
@@ -121,6 +133,38 @@ strong {
 
 #panel_5 {
   background-image: url('../img/bg-laptops.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+#panel_6 {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+#simple-box {
+  /* Rectangle 3: */
+background-image: linear-gradient(-201deg, #D4D4D4 15%, #CDDFD3 100%);
+border-radius: 8px;
+}
+
+#professional-box {
+  /* Rectangle 3: */
+  background-image: linear-gradient(-201deg, #9EC79C 15%, #CDDFD3 100%);
+  border-radius: 8px;
+}
+
+#all-inclusive-box {
+  /* Rectangle 3: */
+  background-color:black;
+  border-radius: 8px;
+  color: white;
+}
+
+#panel_7 {
+  background-image: url('../img/bg-presentation.png');
   background-size: cover;
   background-repeat:no-repeat;
   padding-top:50px;
