@@ -26,14 +26,15 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.5);
   pointer-events: none;
-  z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+  position:relative;
 }
 
 .under-overlay {
   z-index:-1;
   pointer-events: auto;
+  position: relative;
 }
 
 .crossed-out {
@@ -49,6 +50,7 @@ strong {
   background-image: url('../img/ceremony.png');
   background-size: cover;
   background-repeat:no-repeat;
+  padding-top:30px;
 }
 
 #title-desktop {
@@ -75,8 +77,17 @@ strong {
 
 #panel_2 {
   padding-top:40px;
+  padding-bottom:50px;
 }
 
 .panel_2_text {
   font-size:16pt;
+}
+
+#panel_3 {
+  background-image: -webkit-linear-gradient(138deg, rgba(226,226,226,0.50) 0%, rgba(233,233,233,0.50) 59%, rgba(177,177,177,0.50) 100%);
+  background-image: -o-linear-gradient(138deg, rgba(226,226,226,0.50) 0%, rgba(233,233,233,0.50) 59%, rgba(177,177,177,0.50) 100%);
+  background-image: linear-gradient(228deg, rgba(226,226,226,0.50) 0%, rgba(233,233,233,0.50) 59%, rgba(177,177,177,0.50) 100%);
+  padding-top:50px;
+  padding-bottom:80px;
 }
