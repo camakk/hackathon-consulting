@@ -1,0 +1,61 @@
+body {
+  font-family: 'K2D', sans-serif;
+}
+
+nav {
+  color: #115A21;
+  font-size:16pt;
+}
+
+strong {
+  font-weight:800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #115A21;
+}
+
+.white-overlay {
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.5); /* Black background with opacity */
+  z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.under-overlay {
+  z-index:-1;
+}
+
+#brand {
+  height:2rem;
+}
+
+#brand-hackathon-consulting {
+  font-weight: 800;
+}
+
+#panel_1 {
+    /* Background-Panel 1: */
+  background-image: url('../img/ceremony.png');
+  background-size: 100%;
+  background-repeat:none;
+}
+
+#title-desktop {
+  padding-top:110px;
+  padding-left:40px;
+  font-size:28pt;
+  color: #115A21;
+}
+
+#panel_1_description {
+  font-size:21pt;
+}
+
+#panel1-5 {
+  padding-right:60px;
+}
