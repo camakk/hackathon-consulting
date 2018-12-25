@@ -47,7 +47,7 @@ strong {
 }
 
 #panel_1 {
-  background-image: url('../img/ceremony.png');
+  background-image: url('../img/bg-ceremony.png');
   background-size: cover;
   background-repeat:no-repeat;
   padding-top:30px;
@@ -90,4 +90,58 @@ strong {
   background-image: linear-gradient(228deg, rgba(226,226,226,0.50) 0%, rgba(233,233,233,0.50) 59%, rgba(177,177,177,0.50) 100%);
   padding-top:50px;
   padding-bottom:80px;
+}
+
+#panel_4 {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.main-section-title {
+   padding-left:30px;
+   padding-bottom:10px;
+}
+
+.main-section-subtitle-left {
+  padding-left:30px;
+  font-size: 16pt;
+}
+
+.main-section-subtitle-right {
+  padding-right:30px;
+  font-size: 16pt;
+}
+
+.panel_4_text {
+  font-size:16pt;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-bottom: 30px;
+}
+
+#panel_5 {
+  background-image: url('../img/bg-laptops.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+@media (min-width: 768px) {
+  .main-section-title {
+     padding-left:120px;
+     padding-bottom:0px;
+  }
+  .main-section-subtitle-left {
+    padding-left:125px;
+    font-size: 1.5rem;
+  }
+  .main-section-subtitle-right {
+     padding-right:125px;
+     font-size: 1.75rem;
+  }
+  .panel_4_text{
+    padding-left: 150px;
+    padding-right:150px;
+  }
 }
