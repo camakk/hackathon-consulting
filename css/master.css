@@ -84,7 +84,7 @@ footer {
 }
 
 #panel_1-5 {
-  padding-right:60px;
+  padding-right:0px;
 }
 
 #panel_2 {
@@ -171,7 +171,14 @@ border-radius: 8px;
   padding-bottom:50px;
 }
 
+#contact-description {
+  font-size:1rem;
+}
+
 @media (min-width: 768px) {
+  #panel_1-5 {
+    padding-right:60px;
+  }
   .main-section-title {
      padding-left:120px;
      padding-bottom:0px;
@@ -187,5 +194,8 @@ border-radius: 8px;
   .panel_4_text{
     padding-left: 150px;
     padding-right:150px;
+  }
+  #contact-description {
+    font-size:1.75rem;
   }
 }
