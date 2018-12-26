@@ -17,6 +17,8 @@ strong {
 
 footer {
   background-color:black;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .list-group {
@@ -197,5 +199,9 @@ border-radius: 8px;
   }
   #contact-description {
     font-size:1.75rem;
+  }
+  footer {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
