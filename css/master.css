@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  color: #115A21;
+  color: black;
 }
 
 nav {
@@ -53,7 +53,7 @@ footer {
 
 .crossed-out {
   text-decoration:line-through;
-  color: #115A21;
+  color: black;
 }
 
 #brand {
@@ -65,6 +65,7 @@ footer {
   background-size: cover;
   background-repeat:no-repeat;
   padding-top:30px;
+  color:#115A21;
 }
 
 #title-desktop {
@@ -174,7 +175,11 @@ border-radius: 8px;
 }
 
 #contact-description {
-  font-size:1rem;
+  font-size:0.8rem;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 768px) {
@@ -198,7 +203,7 @@ border-radius: 8px;
     padding-right:150px;
   }
   #contact-description {
-    font-size:1.75rem;
+    font-size:1.5rem;
   }
   footer {
     padding-left: 150px;
