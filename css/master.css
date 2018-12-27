@@ -21,6 +21,16 @@ footer {
   padding-right: 30px;
 }
 
+.company-logo {
+  opacity: 0.5;
+  transition-duration:0.5s;
+}
+
+.company-logo:hover{
+  opacity:0.9;
+  transform: scale(1.1);1
+}
+
 .list-group {
   list-style-type:square;
 }
