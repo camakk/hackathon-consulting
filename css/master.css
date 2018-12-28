@@ -220,3 +220,40 @@ border-radius: 8px;
     padding-right: 150px;
   }
 }
+
+.slideUp {
+  animation-name: slideUpward;
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-delay: 0.2s;
+  animation-fill-mode:backwards;
+}
+
+.fadeIn {
+  animation-name: fadeInAnimation;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-fill-mode:backwards;
+}
+
+
+@keyframes slideUpward {
+  0%{
+    opacity: 0;
+    transform:translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateY(0px);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
